@@ -126,5 +126,5 @@ npm test
 
 ## Auteur
 
-Projet réalisé par **[Martin Scarnière]** dans le cadre du cours de Technologie Web 2.
+Projet réalisé par **Martin Scarnière** dans le cadre du cours de Technologie Web 2.
 
