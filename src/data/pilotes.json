@@ -1,0 +1,44 @@
+[
+    {
+      "nom": "Max Verstappen",
+      "age": 26,
+      "nationalite": "Néerlandaise",
+      "ecurie": "Red Bull Racing",
+      "victoires": 50
+    },
+    {
+      "nom": "Lewis Hamilton",
+      "age": 38,
+      "nationalite": "Britannique",
+      "ecurie": "Mercedes-AMG Petronas",
+      "victoires": 103
+    },
+    {
+      "nom": "Charles Leclerc",
+      "age": 26,
+      "nationalite": "Monégasque",
+      "ecurie": "Ferrari",
+      "victoires": 5
+    },
+    {
+      "nom": "Carlos Sainz",
+      "age": 29,
+      "nationalite": "Espagnole",
+      "ecurie": "Ferrari",
+      "victoires": 4
+    },
+    {
+      "nom": "Fernando Alonso",
+      "age": 42,
+      "nationalite": "Espagnole",
+      "ecurie": "Aston Martin",
+      "victoires": 32
+    },
+    {
+      "nom": "Lando Norris",
+      "age": 24,
+      "nationalite": "Britannique",
+      "ecurie": "McLaren",
+      "victoires": 0
+    }
+]  
