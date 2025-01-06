@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Liste des Pilotes</title>
+</head>
+<body>
+  <nav class="menu">
+    <ul>
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="ecuries.html">Écuries</a></li>
+      <li><a href="historique.html">Historique</a></li>
+    </ul>
+  </nav>  
+  <h1>Liste des Pilotes</h1>
+  <div id="filters">
+    <button id="sort-age">Trier par Âge</button>
+    <button id="sort-victoires">Trier par Victoires</button>
+  </div>
+  <div id="pilotes-list"></div>
+  <form id="add-pilote-form">
+    <input type="text" id="nom" placeholder="Nom" required />
+    <input type="number" id="age" placeholder="Âge" required />
+    <input type="text" id="nationalite" placeholder="Nationalité" required />
+    <input type="text" id="ecurie" placeholder="Écurie" required />
+    <input type="number" id="victoires" placeholder="Victoires" required />
+    <input type="url" id="image" placeholder="Image URL" required />
+    <button type="submit">Ajouter</button>
+  </form>
+  <div id="pilotes-list"></div>
+  <script src="script.js" type="module"></script>
+</body>
+</html>

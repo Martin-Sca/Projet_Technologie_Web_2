@@ -5,8 +5,9 @@ export class PiloteController {
   static chargerPilotes(): Pilote[] {
     const data = fs.readFileSync("src/data/pilotes.json", "utf-8");
     const pilotes = JSON.parse(data);
-    return pilotes.map((p: any) =>
-      new Pilote(p.nom, p.age, p.nationalite, p.ecurie, p.victoires)
+    return pilotes.map(
+      (p: any) =>
+        new Pilote(p.nom, p.age, p.nationalite, p.ecurie, p.victoires, p.image)
     );
   }
 
